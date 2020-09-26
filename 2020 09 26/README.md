@@ -20,7 +20,7 @@ yarn start => yarn이 npm보다 좀 더 빠르다(?)
 
 index.js에서 root라는 ID를 가진 태그에 App이라는 컴포넌트를 렌더링하는 코드이다.
 
-![20200926210146](C:\Users\최율겸\Desktop\react-study\2020 09 26\20200926210146.jpg)
+![20200926210146](20200926210146.jpg)
 
 
 
@@ -34,7 +34,7 @@ name, color, isSpecial 등의 속성들은 props로 해당 컴포넌트에 넘�
 
 객체형태로 넘어간다.
 
-그래서 props.name, props.color를 찍어보면 해당 값이 출력된다.![20200926210319](C:\Users\최율겸\Desktop\react-study\2020 09 26\20200926210319.jpg)
+그래서 props.name, props.color를 찍어보면 해당 값이 출력된다.![20200926210319](20200926210319.jpg)
 
 
 
@@ -54,7 +54,7 @@ name, color, isSpecial 등의 속성들은 props로 해당 컴포넌트에 넘�
 
 
 
-![20200926210300](C:\Users\최율겸\Desktop\react-study\2020 09 26\20200926210300.jpg)
+![20200926210300](20200926210300.jpg)
 
 ---
 
@@ -64,7 +64,7 @@ props로 넘어온 객체에서  color, name, isSpecial을 비구조화 할당�
 
 defaultProps는 말 그대로 초기 값으로 주어진 props를 말한다.
 
-{isSpecial && <b>*<b>} 값은
+{isSpecial && <b>*</b>} 값은
 
-![20200926210310](C:\Users\최율겸\Desktop\react-study\2020 09 26\20200926210310.jpg)
+![20200926210310](20200926210310.jpg)
 
