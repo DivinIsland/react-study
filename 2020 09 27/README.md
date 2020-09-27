@@ -2,7 +2,7 @@
 
 
 
-![props와 map](props와 map.jpg)
+![props와 map](./props와 map.jpg)
 
 map을 이용하여 item.id, item.name, item.image, item.rating을 사용할 수 있다.
 
@@ -12,7 +12,7 @@ key 프로퍼티는 해주지 않으면 warning이 뜬다.(컴포넌트 각자 �
 
 ---
 
-![리액트 state](리액트 state.jpg)
+![리액트 state](./리액트 state.jpg)
 
 this.state.count 로 directly mutation은 render()를 호출하지 않기 때문에
 
@@ -28,7 +28,7 @@ this.setState를 해줘야 render() 호출을 하면서 다시 화면에 그려�
 
 ---
 
-![movie component code](movie component code.jpg)
+![movie component code](./movie component code.jpg)
 
 
 
@@ -44,7 +44,7 @@ movie list component이다. 부모에게서 props를 넘겨받고
 
 
 
-![total code](total code.jpg)
+![total code](./total code.jpg)
 
 
 
