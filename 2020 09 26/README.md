@@ -22,6 +22,8 @@ index.js에서 root라는 ID를 가진 태그에 App이라는 컴포넌트를 �
 
 ![20200926210146](20200926210146.jpg)
 
+---
+
 
 
 App 상위 컴포넌트에 Hello와 Wrapper 라는 컴포넌트를 임포트한다.
@@ -68,7 +70,13 @@ props로 넘어온 객체에서  color, name, isSpecial을 비구조화 할당�
 
 defaultProps는 말 그대로 초기 값으로 주어진 props를 말한다.
 
-{isSpecial && <b>*</b>} 값은
+{isSpecial && <b>*</b>} 값은 조건에 따라 렌더링 되는 구조이다.
+
+True일 경우에만 화면에 렌더링이 되고,
+
+null, false, undefined 일때에는 렌더링이 되지 않는다.
+
+참고로 0 은 렌더링이 된다.
 
 ![20200926210310](20200926210310.jpg)
 
